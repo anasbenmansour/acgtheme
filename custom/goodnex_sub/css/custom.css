@@ -1,0 +1,39 @@
+/*=======================================================================
+*** PORTO_SUB STYLE SHEET***
+========================================================================*/
+
+.wp-pagenavi .page-numbers a{
+	min-width: 31px;
+	width: auto;
+	padding: 0 2px;
+}
+
+.wp-pagenavi .pager li.current{
+	min-width: 27px;
+}
+
+.caption > h4
+{
+    color: white;
+}
+
+.language-switcher-locale-url
+{
+    margin-left: 180px;
+    list-style-type: none;
+    float: left;
+}
+.language-switcher-locale-url li 
+{
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.language-switcher-locale-url li a.active
+{
+color: #038ca9;
+}
+.fixed#header .language-switcher-locale-url 
+{
+    display: none;
+}
